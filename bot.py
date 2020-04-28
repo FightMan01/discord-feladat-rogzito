@@ -1,18 +1,11 @@
 import discord
 from discord.ext import commands, tasks
 import asyncio
-import requests
 import time
 import datetime
 import json
-import random
-import ftplib
-from ftplib import FTP
 import aiohttp
 import os
-from urllib.request import urlopen
-import urllib.request as urllib2
-from bs4 import BeautifulSoup, SoupStrainer
 from discord import Webhook, AsyncWebhookAdapter
 
 client = commands.AutoShardedBot(command_prefix=".")
